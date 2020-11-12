@@ -2,14 +2,16 @@ import React, { Component } from 'react'
 import '../../App.css'
 import Cards from '../Cards'
 import './sign-up.css'
+import img1 from './tictactoe.jpeg'
+import img2 from './threads.jpeg'
 
 function Home() {
     return (
         <>
         <div>
             <h1>TIC TAC TOE</h1>
-            <img src="gallery_images/tic-tac-toe.jpg" alt = "tic-tac-toe board"/>
             <ul id="project_body">
+                <img src={img1} alt = "tic-tac-toe board"/>
                 <li>
                 Developed a Tic Tac Toe game in replit that
                 allows two users to play against each other and
@@ -21,7 +23,7 @@ function Home() {
                 </li>
                 
                 <h1>CUSTOM THREADS</h1>
-                <img src="gallery_images/threads.jpg" alt = "picture of a thread"/>
+                <img src={img2} alt = "picture of a thread"/>
                 <li>
                     Developed an application in python using processing 
                     py that allows user to customize shirts
@@ -32,20 +34,6 @@ function Home() {
                     included a function that allows user to include
                     their favorite brands.
                 </li>
-                
-                <h1>CONNECT FOUR</h1>
-                <img src="gallery_images/connect_four.jpg" alt = "a picture of connect four board"/>
-                <li>
-                    Extended Tic Tac Toe game in replit that allows
-                    up to 5 players and allow users to choose the
-                    dimension of the board they would like to play
-                    with using different alphabets.
-                </li>
-                <li>
-                    Currently extending the capacity of the program
-                    to allow users choose to play connect
-                    four.
-                </li>  
             </ul>
     </div>
         </>
