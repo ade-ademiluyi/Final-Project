@@ -38,7 +38,7 @@ function Cards() {
                         />
                         <CardItem 
                         src='images/img-5.jpeg'
-                        text='enter "ibiza" to get info!'
+                        text='enter "Ibiza Spain" to get info!'
                         label='Adventure'
                         path='/services'
                         />

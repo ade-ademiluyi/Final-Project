@@ -32,7 +32,8 @@ function Fetch() {
                 <li><p>Destination Info: ${filterdData.info}</p></li>
                 </ul>
                 <br>
-             `}
+             `
+            }
              document.getElementById('load-data').innerHTML = html;
         })
     }
