@@ -1,22 +1,41 @@
-.fetch{
+.fetch-boxes1{
    position: relative;
    border: none;
    padding: 16px 32px;
-   text-align: center;
+   text-align: left;
    display: inline-block;
    font-size: 16px;
    transition-duration: 0.4s;
    cursor: pointer;
-    background-color:rgba(222, 227, 230, 0.918); 
    color: black;
    border-radius: 8px;
    position: absolute;
    left: 0;
    right: 0;
-   top: 75%;
+   top: 30%;
    transform: translateY(-50%);
    margin: auto;
 }
+
+.fetch-boxes{
+   position: relative;
+   border: none;
+   padding: 16px 32px;
+   text-align: left;
+   display: inline-block;
+   font-size: 16px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   color: black;
+   border-radius: 8px;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 35%;
+   transform: translateY(-50%);
+   margin: auto;
+}
+
 
 #load-data{
     font-family: Georgia, 'Times New Roman', Times, serif;
