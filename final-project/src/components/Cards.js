@@ -12,35 +12,35 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem 
                         src='images/img-9.jpg'
-                        text='Here we have Bali!'
+                        text='enter "Bali" to get info!'
                         label='Bali'
-                        // path='/services'
+                        path='/services'
                         />
                         <CardItem 
                         src='images/img-3.jpg'
-                        text='Santorini to the rini Greece!'
+                        text='enter "Santorini Greece" to get info!'
                         label='Adventure'
-                        //path='/services'
+                        path='/services'
                         />
                     </ul>
                     <ul className='cards__items'>
                         <CardItem 
                         src='images/img-1.jpg'
-                        text='Amsterdam!'
+                        text='enter "Amsterdam" to get info!'
                         label='Adventure'
-                        //path='/services'
+                        path='/services'
                         />
                         <CardItem 
                         src='images/img-7.jpg'
-                        text='Amazing Bora Bora!'
+                        text='enter "Bora Bora" to get info!'
                         label='Adventure'
-                        //path='/services'
+                        path='/services'
                         />
                         <CardItem 
                         src='images/img-5.jpeg'
-                        text='Big money ibiza!'
+                        text='enter "Ibiza Spain" to get info!'
                         label='Adventure'
-                        //path='/services'
+                        path='/services'
                         />
                     </ul>
                 </div>
